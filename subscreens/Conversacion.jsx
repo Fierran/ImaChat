@@ -4,8 +4,9 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { useState } from 'react';
 import { Asset } from 'expo-asset';
 import * as FileSystem from 'expo-file-system';
+import { conversaciones } from '../assets/datos/Conversacion';
 
-import { ConversacionD } from './ConversacionD';
+import { EmotionDetail } from './EmotionDetail';
 
 export function Conversacion() {
     const insets = useSafeAreaInsets();
@@ -54,7 +55,7 @@ export function Conversacion() {
       </View>
       {selectedEmotion ? (
         // Si hay una emoción seleccionada, muestra su información
-        <ConversacionD
+        <EmotionDetail
           emotion={{ ...selectedEmotion, info: emotionInfo }}
           onBack={() => {
             setSelectedEmotion(null);
@@ -64,7 +65,7 @@ export function Conversacion() {
       ) : (
         // Si no hay emoción seleccionada, muestra la lista de emociones
         <FlatList
-          data={emociones}
+          data={conversaciones}
           renderItem={({ item }) => (
             <TouchableOpacity style={styles.itemContainer} onPress={() => handleEmotionSelect(item)}>
               <View>

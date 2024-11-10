@@ -19,7 +19,8 @@ export function EmotionDetail({ emotion, onBack }) {
     <View style={styles.detailContainer}>
       <Text style={styles.detailTitle}>{emotion.label}</Text>
       <Image style={styles.mainImage} source={{ uri: emotion.uri }} />
-      <ScrollView style={styles.scrollContainer}>
+      <ScrollView style={styles.scrollContainer}
+      showsVerticalScrollIndicator={false}>
         {renderContent(emotion.info || 'No hay información disponible')}
       </ScrollView>
       <TouchableOpacity onPress={onBack} style={styles.backButton}>
@@ -46,6 +47,7 @@ export function EmotionDetail({ emotion, onBack }) {
       detailImage: {
         width: 100,
         height: 100,
+        alignSelf: 'center'
       },
       mainImage: {
         width: 100,
