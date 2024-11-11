@@ -1,0 +1,5 @@
+Descripción: 
+Si la persona tiene interés en el arte, puedes preguntar sobre sus gustos o si practica alguna actividad creativa.
+Ejemplo:
+“¿Te gusta el arte? Yo disfruto pintar.”
+“¿Alguna vez has visitado un museo de arte?”

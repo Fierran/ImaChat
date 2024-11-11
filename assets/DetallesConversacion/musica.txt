@@ -1,0 +1,5 @@
+Descripción: 
+La música es un tema que muchas personas disfrutan y es fácil de hablar sobre canciones, artistas o géneros favoritos.
+Ejemplo:
+“¿Te gusta escuchar música? ¿Cuál es tu canción favorita?”
+“Escuché una canción que me gusta mucho, ¿tienes alguna música favorita?”

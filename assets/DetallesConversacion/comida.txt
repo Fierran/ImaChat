@@ -1,0 +1,5 @@
+Descripción: 
+La comida es un tema que muchas personas disfrutan, ya sea hablando de sus platos favoritos o de cosas que les gusta cocinar.
+Ejemplo:
+“¿Tienes una comida favorita? A mí me encanta la pizza.”
+“¿Te gusta cocinar? Yo sé preparar un par de recetas.”

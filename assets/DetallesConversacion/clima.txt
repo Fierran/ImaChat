@@ -1,0 +1,5 @@
+Descripción: 
+Hablar del clima es una forma simple de iniciar una conversación. A muchas personas les gusta comentar si hace calor, frío, si lloverá, etc.
+Ejemplo:
+“Hola, ¿sabías que va a llover esta tarde?”
+“Parece que hoy va a hacer mucho sol, ¿te gusta el clima soleado?”
