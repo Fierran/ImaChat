@@ -3,7 +3,7 @@ const axios = require('axios');
 const app = express();
 
 const API_KEY = '';
-const CX = 'e7babd2c62c9e465f';
+const CX = '';
 
 app.use(express.json());
 
@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
 });
 
 app.post('/servidor', async (req, res) => {
-  const { palabras } = req.body; // El texto ingresado por el usuario
+  const { palabras } = req.body;
 
   try {
     const promises = palabras.split(' ').map(async (palabra) => {
@@ -22,11 +22,12 @@ app.post('/servidor', async (req, res) => {
           searchType: 'image',
           key: API_KEY,
           cx: CX,
-          num: 1, // Solo queremos una imagen por palabra
+          num: 1, 
         },
       });
 
-      const imageUrl = response.data.items[0]?.link || ''; // URL de la primera imagen
+      const imageUrl = response.data.items[0]?.link || ''; 
+      
       return imageUrl;
     });
 
