@@ -2,8 +2,8 @@ const express = require('express');
 const axios = require('axios');
 const app = express();
 
-const API_KEY = 'AIzaSyBSDaZFqHv1h4asRHbKWbQcFv-XhUmhFjg'; // Sustituir con tu clave de API de Google
-const CX = 'e7babd2c62c9e465f'; // Sustituir con tu Custom Search Engine ID
+const API_KEY = '';
+const CX = 'e7babd2c62c9e465f';
 
 app.use(express.json());
 
